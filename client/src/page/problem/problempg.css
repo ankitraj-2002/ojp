@@ -1,0 +1,94 @@
+.problempg {
+    display: flex;
+    padding-top: 25px;
+}
+
+.rhs {
+    flex: 6;
+    margin: 10px;
+    height: 100vh;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.lhs {
+    flex: 6;
+    margin: 10px;
+    height: 100vh;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.problemId {
+    margin: 15px;
+    border-radius: 10px;
+    background: white;
+    padding: 15px;
+
+}
+
+.problemName {
+    margin: 5px;
+
+    padding: 5px;
+}
+
+.problemCat {
+    margin: 5px;
+    border-radius: 10px;
+    background: wheat;
+    padding: 5px;
+}
+
+.statement {
+    margin: 15px;
+    border-radius: 10px;
+    background: white;
+    padding: 15px;
+}
+
+.example {
+    margin: 15px;
+    border-radius: 10px;
+    background: white;
+    padding: 15px;
+}
+
+.codeInput {
+    width: 95%;
+    margin-top: 1%;
+    height: 60%;
+    position: static;
+    font-family: inherit;
+    font-size: 20px;
+    /* display: flex; */
+
+
+    border: none;
+    padding: 20px;
+    /* width: 70vw; */
+
+}
+
+.codeSubmit{
+    /* position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white; */
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.output {
+    margin: 15px;
+    height: 25%;
+    border-radius: 10px;
+    background: white;
+    padding: 15px;
+}
