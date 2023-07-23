@@ -3,6 +3,7 @@ import Home from "./page/home/Home";
 import Problempg from "./page/problem/Problempg";
 import Login from "./page/login/Login";
 import Register from "./page/register/Register";
+import Settings from "./page/settings/Settings";
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -30,6 +31,7 @@ function App() {
         <Routes>
           <Route exact path="/" element ={ <Home />} />
           <Route path="/problem" element = {<Problempg />}/>
+          <Route path="/settings" element={<Settings />} />
           <Route path="/register" element ={ currentUser ? <Home/> : <Register/>} />
         <Route path="/LOGIN" element={currentUser ? <Login /> : <Login />} />
 

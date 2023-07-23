@@ -19,9 +19,7 @@ export default function Topbar() {
                         </Link>
                     </li>
                     <li className="topListItem">
-                        {/* <Link className="link" to="/write"> */}
                         DISCUSS
-                        {/* </Link> */}
                     </li>
                     <li className="topListItem">
                         <Link className="link" to="/problem">
@@ -34,13 +32,13 @@ export default function Topbar() {
             <div className="topRight">
                 {user ? (
                     <div>
-                        {/* <Link className="link" to="/settings"> */}
+                        <Link className="link" to="/settings">
                         <img
                             className="topImg"
                             src="http://anniekateshomeschoolreviews.com/wp-content/uploads/2015/05/Online-picture1.jpg"
                             alt=""
                         />
-                        {/* </Link> */}
+                        </Link>
                         <span className="topListItem">
                             {user && "LOGOUT"}                
                             <i className="topIcon fa-regular fa-share-from-square"></i>
